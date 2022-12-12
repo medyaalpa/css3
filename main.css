@@ -4,8 +4,126 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: antiquewhite;
+.app {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 32px;
+}
+
+.navigator {
+    padding: 0px 32px;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 0px 32px;
+    color: grey;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 5%);
+    height: 72px;
+    display: flex;
+    justify-content: space-between
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 12px 20px;
+    background-color: #4285F4;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+.section1 :first-child {
+    margin-left: 0px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 :first-child {
+    margin-left: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.buttonarea {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 10%);
+    height: 48px;
+    width: 544px;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 18px;
+    text-decoration: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.common {
+    background-color: rgba(0, 0, 0, 5%);
+    color: grey;
 }
